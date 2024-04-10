@@ -1,0 +1,110 @@
+.background-container {
+  height: 100vh;
+  background-color: #223a5f;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 25px 0 0 0;
+}
+
+.game-header-container {
+  border: 2px solid #ffffff;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 70%;
+  padding: 5px 23px 5px 23px;
+}
+
+.choice-name {
+  color: #ffffff;
+  font-family: Bree Serif;
+  font-size: 20px;
+  font-weight: 300;
+  width: 50%;
+}
+
+.game-score-container {
+  width: 18%;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  background-color: #ffffff;
+}
+
+.score-name-para {
+  font-family: Bree Serif;
+  color: #223a5f;
+  font-weight: 600;
+  line-height: 0;
+  font-size: 20px;
+}
+
+.score-para {
+  font-family: 'Roboto';
+  color: #223a5f;
+  font-weight: 600;
+  line-height: 0;
+  font-size: 30px;
+}
+
+.game-choices-container {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 15px;
+}
+
+.choices-list {
+  width: 50%;
+  margin-right: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  list-style-type: none;
+}
+
+.modal-container {
+  align-self: flex-end;
+}
+
+.rules-button {
+  margin: 0 20px 0 0;
+  background-color: #ffffff;
+  font-family: Bree Serif;
+  border: none;
+  border-radius: 3px;
+  font-weight: 500;
+  padding: 5px 23px 7px 23px;
+  font-size: 18px;
+}
+
+.modal {
+  height: 80vh;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 25px 0 25px;
+  border-radius: 8px;
+}
+
+.close-button {
+  align-self: flex-end;
+  background-color: transparent;
+  border: none;
+  font-size: 20px;
+}
+
+.modal-image {
+  width: 400px;
+}
